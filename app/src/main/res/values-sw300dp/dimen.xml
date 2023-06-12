@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="text">60sp</dimen>
+    <dimen name="marigin_top">30dp</dimen>
+    <dimen name="alm">20sp</dimen>
+    <dimen name="alms">30sp</dimen>
+    <dimen name="fasika">25sp</dimen>
+    <dimen name="han">60sp</dimen>
+    <dimen name="fidel">80sp</dimen>
+</resources>

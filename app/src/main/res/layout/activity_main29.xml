@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity29"
+    android:background="@drawable/brana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-116dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.02" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.98" />
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.35" />
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.65" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.7" />
+
+
+
+
+            <TextView
+                android:id="@+id/kk0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:text="deebii hundarra gaarii ta’e filadhu"
+                android:fontFamily="@font/jiret"
+                android:textColor="@color/black"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/kk1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1) oduu durii saree fi harree jadhu kanarati sareen hojiin isaa halkan man eguu dha ture."
+                android:textColor="@color/black"
+                android:fontFamily="@font/jiret"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk0" />
+
+            <RadioGroup
+                android:id="@+id/rgp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk1"
+                >
+                <RadioButton
+                    android:id="@+id/rbt"
+                    android:fontFamily="@font/jiret"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="soba"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="dhuuga"
+                    android:textSize="@dimen/alms"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/kk2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2) oduu durii saree fi harree jadhu kanarati hareen hojin isaa halkan man eguu fi xaafi baatee gabaa geessuu ture."
+                android:fontFamily="@font/jiret"
+                android:textColor="@color/black"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/rgp" />
+
+            <RadioGroup
+                android:id="@+id/rgp1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk2"
+                >
+                <RadioButton
+                    android:id="@+id/rbt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="soba"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="dhuuga"
+                    android:textSize="@dimen/alms"
+                    />
+            </RadioGroup>
+
+
+
+
+
+            <TextView
+                android:id="@+id/kk3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="3) Harreenis sareenis hojii isaaniittii gammaddoo turan."
+                android:textColor="@color/black"
+                android:fontFamily="@font/jiret"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/rgp1" />
+
+            <RadioGroup
+                android:id="@+id/rgp2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk3"
+                >
+                <RadioButton
+                    android:id="@+id/rbt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="soba"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="dhuuga"
+                    android:textSize="@dimen/alms"
+                    />
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/kk4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="4) oduu durii saree fi harree jadhu kanarati harree akeekkachiise saree didee alaakera."
+                android:textColor="@color/black"
+                android:fontFamily="@font/jiret"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/rgp2" />
+
+            <RadioGroup
+                android:id="@+id/rgp3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk4"
+                >
+                <RadioButton
+                    android:id="@+id/rbt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="soba"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="dhuuga"
+                    android:textSize="@dimen/alms"
+                    />
+            </RadioGroup>
+
+
+
+
+
+            <TextView
+                android:id="@+id/kk5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="5) oduu durii saree fi harree jadhu kanarati harren akeekakachiisa saree didnan sareen utaalee harree qabatee ajjeeseen."
+                android:textColor="@color/black"
+                android:fontFamily="@font/jiret"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/rgp3" />
+
+            <RadioGroup
+                android:id="@+id/rgp4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk5"
+                >
+                <RadioButton
+                    android:id="@+id/rbt8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="dhuuga"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="soba"
+                    android:textSize="@dimen/alms"
+                    />
+            </RadioGroup>
+
+
+
+
+            <TextView
+                android:id="@+id/kk6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="6) oduu durii saree fi harree jadhu kanarati  'Amma ani Alaakuun barbaada waan garaan koo guuteef yoon alaakee malee naattii, hin tolu' kan jedhe enyu dha? "
+                android:textColor="@color/black"
+                android:fontFamily="@font/jiret"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/rgp4" />
+
+            <RadioGroup
+                android:id="@+id/rgp5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk6"
+                >
+                <RadioButton
+                    android:id="@+id/rbt10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="saree"
+                    android:fontFamily="@font/jiret"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="harree"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt12"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/jiret"
+                    android:layout_height="wrap_content"
+                    android:text="waraabesa"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="hunda"
+                    android:textSize="@dimen/alms"
+                    />
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/kk7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="7)oduu durii saree fi harree jadhu kanarati enyutu harree ajjeese?"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jiret"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/rgp5" />
+
+            <RadioGroup
+                android:id="@+id/rgp6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk7"
+                >
+                <RadioButton
+                    android:id="@+id/rbt14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="harree"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="waraabesa"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="saree"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="hunda"
+                    android:textSize="@dimen/alms"
+                    />
+
+            </RadioGroup>
+
+
+
+
+            <TextView
+                android:id="@+id/kk8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="8) oduu durii saree fi harree jadhu kanarati Ati immo asii maal hoojjettaa jedhe kan gafate enyu dha?"
+                android:fontFamily="@font/jiret"
+                android:textColor="@color/black"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/rgp6" />
+
+            <RadioGroup
+                android:id="@+id/rgp7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk8"
+                >
+                <RadioButton
+                    android:id="@+id/rbt18"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/jiret"
+                    android:layout_height="wrap_content"
+                    android:text="saree "
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt19"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/jiret"
+                    android:layout_height="wrap_content"
+                    android:text="harree"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="waraabesa"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt21"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/jiret"
+                    android:layout_height="wrap_content"
+                    android:text="homaa"
+                    android:textSize="@dimen/alms"
+                    />
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/kk9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="9) Oduu durii saree fi harree jadhu kanarati eessa geessite sammuu harree kanaa kan jadhe gafi dhihese enyu dha?"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jiret"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/rgp7" />
+
+            <RadioGroup
+                android:id="@+id/rgp8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk9"
+                >
+                <RadioButton
+                    android:id="@+id/rbt22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="harree"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="saree"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="waraabesa"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="hunda"
+                    android:textSize="@dimen/alms"
+                    />
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/kk10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="10) Oduu durii saree fi harree jadhu kanarati  ' mee kottu foon kana anaaf eegi deebi'een dhufaatii kan jedhe enyu dha?"
+                android:textColor="@color/black"
+                android:fontFamily="@font/jiret"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline5"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/rgp8" />
+
+            <RadioGroup
+                android:id="@+id/rgp9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline8"
+                app:layout_constraintStart_toStartOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk10"
+                >
+                <RadioButton
+                    android:id="@+id/rbt26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="saree"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="harree"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/jiret"
+                    android:text="waraabesa"
+                    android:textSize="@dimen/alms"
+                    />
+                <RadioButton
+                    android:id="@+id/rbt29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hunda"
+                    android:fontFamily="@font/jiret"
+                    android:textSize="@dimen/alms"
+                    />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/but1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="deebii galchi"
+                android:textSize="@dimen/alm"
+                android:fontFamily="@font/jiret"
+                android:background="@drawable/button"
+                app:layout_constraintDimensionRatio="1:0.4"
+                app:layout_constraintEnd_toStartOf="@id/guideline7"
+                app:layout_constraintStart_toStartOf="@id/guideline6"
+                app:layout_constraintTop_toBottomOf="@id/rgp9"/>
+            <TextView
+                android:id="@+id/kk11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:fontFamily="@font/jiret"
+                android:hint="bu’aa keessan"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline7"
+                app:layout_constraintStart_toStartOf="@id/guideline6"
+                app:layout_constraintTop_toBottomOf="@id/but1" />
+
+            <TextView
+                android:id="@+id/kk12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:fontFamily="@font/jiret"
+                android:textStyle="bold"
+                android:text="dhuma"
+                android:textSize="@dimen/alm"
+                android:gravity="center"
+                app:layout_constraintEnd_toStartOf="@+id/guideline5"
+                app:layout_constraintStart_toEndOf="@id/guideline4"
+                app:layout_constraintTop_toBottomOf="@id/kk11" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

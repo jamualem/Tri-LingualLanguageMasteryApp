@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity17"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="305dp"
+         tools:layout_editor_absoluteY="-185dp"
+           >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.06" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.02" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.37" />
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.98" />
+
+                <TextView
+                    android:id="@+id/kk0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PROVERB READING"
+                    android:fontFamily="@font/aku"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/alms"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <FrameLayout
+                    android:id="@+id/frame1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/kk0"
+                    android:elevation="10dp"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <androidx.constraintlayout.widget.Guideline
+                        android:id="@+id/guideline7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintGuide_percent="0.02" />
+
+                    <androidx.constraintlayout.widget.Guideline
+                        android:id="@+id/guideline8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="*  A penny saved is a penny earned."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline8"
+                            app:layout_constraintStart_toStartOf="@id/guideline7"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:id="@+id/tex2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:fontFamily="@font/han"
+                            android:text=" (It's good to save money instead of spending it all at once.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintTop_toBottomOf="@+id/tex1"
+                            app:layout_constraintEnd_toStartOf="@id/guideline8"
+                            app:layout_constraintStart_toStartOf="@id/guideline7"
+                            app:layout_constraintBottom_toBottomOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frame2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame1"
+                    >
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+
+                        <TextView
+                            android:id="@+id/tex3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* Actions speak louder than words."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline10"
+                            app:layout_constraintStart_toStartOf="@id/guideline9"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tex4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(What you do is more important than what you say.)."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintTop_toBottomOf="@+id/tex3"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/guideline10"
+                            app:layout_constraintStart_toStartOf="@id/guideline9" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frame3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame2"
+
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* All that glitters is not gold."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline12"
+                            app:layout_constraintStart_toStartOf="@id/guideline11"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(Not everything that looks good is good.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex5"
+                            app:layout_constraintEnd_toStartOf="@id/guideline12"
+                            app:layout_constraintStart_toStartOf="@id/guideline11" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+
+                <FrameLayout
+                    android:id="@+id/frame4"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame3"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* If at first you don't succeed, try, try again."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline14"
+                            app:layout_constraintStart_toStartOf="@id/guideline13"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(Don't give up easily.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex6"
+                            app:layout_constraintEnd_toStartOf="@id/guideline14"
+                            app:layout_constraintStart_toStartOf="@id/guideline13" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frame5"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame4"
+
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* Look before you leap."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline16"
+                            app:layout_constraintStart_toStartOf="@id/guideline15"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(Think carefully before making a decision.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex7"
+                            app:layout_constraintEnd_toStartOf="@id/guideline16"
+                            app:layout_constraintStart_toStartOf="@id/guideline15" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/frame6"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame5"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* Practice makes perfect."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline18"
+                            app:layout_constraintStart_toStartOf="@id/guideline17"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(The more you do something, the better you'll become at it.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex8"
+                            app:layout_constraintEnd_toStartOf="@id/guideline18"
+                            app:layout_constraintStart_toStartOf="@id/guideline17" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+
+
+        <FrameLayout
+            android:id="@+id/frame7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:0.3"
+            android:background="@drawable/background"
+            app:layout_constraintEnd_toStartOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline4"
+            app:layout_constraintTop_toBottomOf="@id/frame6"
+            >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.02" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.98" />
+            <TextView
+                android:id="@+id/tex9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="* Slow and steady wins the race."
+                android:textColor="@color/black"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline20"
+                app:layout_constraintStart_toStartOf="@id/guideline19"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/han"
+                android:gravity="center"
+                android:text="(Take your time and do things carefully to get the best results.)"
+                android:textColor="@color/black"
+                android:textSize="@dimen/alms"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex9"
+                app:layout_constraintEnd_toStartOf="@id/guideline20"
+                app:layout_constraintStart_toStartOf="@id/guideline19" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frame8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:0.3"
+            android:background="@drawable/background"
+            app:layout_constraintEnd_toStartOf="@id/guideline5"
+            app:layout_constraintStart_toStartOf="@id/guideline4"
+            app:layout_constraintTop_toBottomOf="@id/frame7"
+            >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.02" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.98" />
+            <TextView
+                android:id="@+id/tex10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="* The early bird catches the worm."
+                android:textColor="@color/black"
+                android:textSize="@dimen/alms"
+                app:layout_constraintEnd_toStartOf="@id/guideline22"
+                app:layout_constraintStart_toStartOf="@id/guideline21"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/han"
+                android:gravity="center"
+                android:text="(Being early and prepared helps you to be successful.)"
+                android:textColor="@color/black"
+                android:textSize="@dimen/alms"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tex10"
+                app:layout_constraintEnd_toStartOf="@id/guideline22"
+                app:layout_constraintStart_toStartOf="@id/guideline21" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+
+
+
+                <FrameLayout
+                    android:id="@+id/frame9"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame8"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* The grass is always greener on the other side."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline24"
+                            app:layout_constraintStart_toStartOf="@id/guideline23"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(People often think others have it better, but that's not always the case.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex11"
+                            app:layout_constraintEnd_toStartOf="@id/guideline24"
+                            app:layout_constraintStart_toStartOf="@id/guideline23" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+
+
+                <FrameLayout
+                    android:id="@+id/frame10"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame9"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* You can't judge a book by its cover."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline26"
+                            app:layout_constraintStart_toStartOf="@id/guideline25"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(You shouldn't judge someone or something based only on appearance.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex12"
+                            app:layout_constraintEnd_toStartOf="@id/guideline26"
+                            app:layout_constraintStart_toStartOf="@id/guideline25" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+
+                <FrameLayout
+                    android:id="@+id/frame11"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame10"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* An apple a day keeps the doctor away."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline28"
+                            app:layout_constraintStart_toStartOf="@id/guideline27"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(Eating healthy food helps keep you healthy.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex13"
+                            app:layout_constraintEnd_toStartOf="@id/guideline28"
+                            app:layout_constraintStart_toStartOf="@id/guideline27" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+
+
+                <FrameLayout
+                    android:id="@+id/frame12"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame11"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* Cleanliness is next to godliness."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline30"
+                            app:layout_constraintStart_toStartOf="@id/guideline29"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(Keeping yourself and your surroundings clean is important.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex14"
+                            app:layout_constraintEnd_toStartOf="@id/guideline30"
+                            app:layout_constraintStart_toStartOf="@id/guideline29" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+
+                <FrameLayout
+                    android:id="@+id/frame13"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame12"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* Don't count your chickens before they hatch."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline32"
+                            app:layout_constraintStart_toStartOf="@id/guideline31"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(Don't assume something will happen before it actually does.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex15"
+                            app:layout_constraintEnd_toStartOf="@id/guideline32"
+                            app:layout_constraintStart_toStartOf="@id/guideline31" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+
+                <FrameLayout
+                    android:id="@+id/frame14"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame13"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex16"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* If you want something done right, do it yourself."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline34"
+                            app:layout_constraintStart_toStartOf="@id/guideline33"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(Sometimes it's better to do things on your own instead of relying on others.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex16"
+                            app:layout_constraintEnd_toStartOf="@id/guideline34"
+                            app:layout_constraintStart_toStartOf="@id/guideline33" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+
+                <FrameLayout
+                    android:id="@+id/frame15"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:0.3"
+                    android:background="@drawable/background"
+                    app:layout_constraintEnd_toStartOf="@id/guideline5"
+                    app:layout_constraintStart_toStartOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/frame14"
+                    >
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.02" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.98" />
+                        <TextView
+                            android:id="@+id/tex17"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="* Laughter is the best medicine."
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintEnd_toStartOf="@id/guideline36"
+                            app:layout_constraintStart_toStartOf="@id/guideline35"
+                            app:layout_constraintTop_toTopOf="parent" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/han"
+                            android:gravity="center"
+                            android:text="(Having a good sense of humor and laughing often can make you feel better.)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/alms"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tex17"
+                            app:layout_constraintEnd_toStartOf="@id/guideline36"
+                            app:layout_constraintStart_toStartOf="@id/guideline35" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </FrameLayout>
+
+
+
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

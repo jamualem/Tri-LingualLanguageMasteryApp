@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="teret1">There was once a young Shepherd Boy who tended his sheep at the foot of a mountain near a dark forest.
+It was rather lonely for him all day, so he thought upon a plan by which he could get a little company
+ and some excitement. He rushed down towards the village calling out “Wolf, Wolf,” and the villagers came
+out to meet him, and some of them stopped with him for a considerable time.</string>
+    <string name="teret2">This pleased the boy so much that a few days afterwards he tried the same trick, and again the villagers came to
+ his help. But shortly after this a Wolf actually did come out from the forest, and began to worry the sheep, and
+the boy of course cried out “Wolf, Wolf,” still louder than before.
+</string>
+    <string name="teret3">But this time the villagers, who had been fooled twice before, thought the boy was again deceiving them, and nobody
+stirred to come to his help. So the Wolf made a good meal off the boy’s flock, and when the boy complained,
+the wise man of the village said: “A liar will not be believed, even when he speaks the truth.”
+(written by Aesop)
+</string>
+    <string name="docho">በአንድ መንደር ውስጥ ዶጮ የሚባል ትንሽ ሰው ነበር። ለመንደሩ ሰዎች ጫማ ይሰፋል። በመንደሩ ውስጥ ያሉት ሰዎች ጫማ ሲፈልጉ ወደ እሱ ነው የሚሄዱት። ዶጮ አዲስ ጫማ ይሰፋላቸዋል።
+ አሮጌውንም ያድስላቸዋል። </string>
+    <string name="docho1">
+አንድ ቀን አቶ ደፍጥጤ የሚባሉ በጣም ትልቅ ሰውዬ መጥተው ዶጮ ጫማ እንዲሰራላቸው ጠየቁት ። “ጫማውን ሰፍተህ ስትጨርስ አንድ ዶሮና ስድስት ዕንቁላሎች እሰጥሃለሁ" አሉት ።
+ ዶጮም “እሺ” አለና የአቶ ደፍጥጤን ጫማ መስፋት ጀመረ።</string>
+    <string name="docho2">
+አቶ ደፍጥጤ ከሰው ሁሉ የተለዩ በጣም ግዙፍ ትልቅ ሰው በመሆናቸው እግራቸውም በጣም ትልቅ ነው። ዶጮ ደግሞ በጣም ትንሽ ነው።የአቶ ደፍጥጤን ጫማ ለመስፋት ስለተቸገረ እግራ ቸው ላይ በመሰላል እየወጣ ነበር የሚሰፋላቸው። ቀን ቀን እየመጡ አጠገቡ ቁጭ ሲሉ ለት ቆዳውን በእግራቸው እየለካ ቶሎ ቶሎ ይሰፋል።
+ከብዙ ቀን በሁዋላ ለአቶ ደፍጥጤ የቀኝ እግር የሚሆን ትልቅ ጫማ ሰፍቶ ጨረሰ።
+</string>
+    <string name="docho3">አቶ ደፍጥጤ ጫማውን ሲያዩ በጣም ደስ አላቸው ።"ሁለተኛውን ጫማ ስፋልኝ።
+ቶሎ ከጨረስክልኝ ሌላ አራት ዕንቁላልና ሦስት የዶሮ ጫጩቶች እሰጥሃለሁ አሉት ።
+ዶጮ ግን “ቆዳ አለቀብኝ የርስዎ እግር በጣም ትልቅ ነው ።
+አንዱ ጫማ ብቻ ለብዙ ሰው ጫማ የሚሆነኝን ቆዳና ሲባጎ ጨረሰብኝ” አለ።
+</string>
+
+    <string name="docho4">
+አቶ ደፍጥጤም “ታዲያ ምን ይሻላል? ብለው ጠየቁት። ዶጮ “ያለቀውን ያንድ እግር ጫማ ብቻ ይውሰዱና እርስዎ የፈለጉትን ይክፈሉኝ” አለ።
+“ያንድ እግር ብቻ ምን ያደርግልኛል?" አሉና ተቆጡ : “ያንዱን እግር ሌላ ጊዜ እሰፋልዎታለሁ" አለ ዶጮ። አቶ ደፍጥጤም “አልፈልግም ለሌላ ሰው ሽጠው።" ብለው ወደቤታቸው ሔዱ።
+    </string>
+    <string name="docho5">ዶጮም ትንሽ ካሰበ በኋላ ትልቁን ጫማ መኖሪያ ቤት ሊያደርገው ፈለገ። በርና መስኮት፥ጣሪያ ሠራለት። ከዚያም ውስጡ ይኖር ጀመር።
+    </string>
+
+    <string name="hare1"> </string>
+
+    <string name="hare2"> </string>
+
+    <string name="hare3"> </string>
+
+    <string name="hare4"> </string>
+
+
+
+</resources>

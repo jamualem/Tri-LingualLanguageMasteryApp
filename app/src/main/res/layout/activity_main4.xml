@@ -1,0 +1,211 @@
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bassa"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.03" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.06" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.06" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.94" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.96" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.18" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.42" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.54" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.66" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.78" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.73" />
+    <FrameLayout
+        android:id="@+id/world"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/wall"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_startk5"
+        app:layout_constraintTop_toTopOf="@id/guideline_start0"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start8"
+        app:layout_constraintStart_toEndOf="@id/guideline_start"
+        >
+        <TextView
+            android:id="@+id/asgeramiworld"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            android:text="ኑ አብረን ፊደል እንቁጠር ልጆች!"
+            />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/image1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:text="ከ ሀ--ሠ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_startk"
+        app:layout_constraintTop_toTopOf="@id/guideline_start0"
+        app:layout_constraintEnd_toEndOf="@id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1" />
+    <Button
+        android:id="@+id/image2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:text="ከ ረ--በ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_startk1"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk"
+        app:layout_constraintEnd_toEndOf="@id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1" />
+    <Button
+        android:id="@+id/image3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:text="ከ ቨ--ነ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_startk3"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk1"
+        app:layout_constraintEnd_toEndOf="@id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1" />
+    <Button
+        android:id="@+id/image4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:text="ከ ኘ--ወ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_startk4"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk3"
+        app:layout_constraintEnd_toEndOf="@id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1" />
+    <Button
+        android:id="@+id/image5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:text="ከ ዐ--ደ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_startk6"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk4"
+        app:layout_constraintEnd_toEndOf="@id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1" />
+    <Button
+        android:id="@+id/image6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:text="ከ ጀ--ጰ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_startk7"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk6"
+        app:layout_constraintEnd_toEndOf="@id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1" />
+    <Button
+        android:id="@+id/image7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:text="ከ ጸ--ፐ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_startk8"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk7"
+        app:layout_constraintEnd_toEndOf="@id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,509 @@
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.01" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.218" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.29" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.406" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.43" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.57" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.71" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.594" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.782" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_startk5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.97" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.99"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጀ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start1"
+        app:layout_constraintStart_toEndOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="@id/guideline_start0"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጁ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start3"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1"
+        app:layout_constraintTop_toTopOf="@id/guideline_start0"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጂ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start4"
+        app:layout_constraintStart_toEndOf="@id/guideline_start3"
+        app:layout_constraintTop_toTopOf="@id/guideline_start0" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጃ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start5"
+        app:layout_constraintStart_toEndOf="@id/guideline_start4"
+        app:layout_constraintTop_toTopOf="@id/guideline_start0" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጄ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start6"
+        app:layout_constraintStart_toEndOf="@id/guideline_start5"
+        app:layout_constraintTop_toTopOf="@id/guideline_start0" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጅ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start6"
+        app:layout_constraintTop_toTopOf="@id/guideline_start0" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጆ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start8"
+        app:layout_constraintStart_toEndOf="@id/guideline_start7"
+        app:layout_constraintTop_toTopOf="@id/guideline_start0" />
+
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ገ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start1"
+        app:layout_constraintStart_toEndOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk" />
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጉ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start3"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk"
+        />
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጊ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start4"
+        app:layout_constraintStart_toEndOf="@id/guideline_start3"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk" />
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጋ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start5"
+        app:layout_constraintStart_toEndOf="@id/guideline_start4"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk" />
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጌ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start6"
+        app:layout_constraintStart_toEndOf="@id/guideline_start5"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk" />
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ግ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start6"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk" />
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጎ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start8"
+        app:layout_constraintStart_toEndOf="@id/guideline_start7"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk" />
+
+
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጠ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start1"
+        app:layout_constraintStart_toEndOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk1" />
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጡ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start3"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk1"
+        />
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጢ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start4"
+        app:layout_constraintStart_toEndOf="@id/guideline_start3"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk1" />
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጣ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start5"
+        app:layout_constraintStart_toEndOf="@id/guideline_start4"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk1" />
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጤ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start6"
+        app:layout_constraintStart_toEndOf="@id/guideline_start5"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk1" />
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጥ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start7"
+        app:layout_constraintStart_toEndOf="@id/guideline_start6"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk1" />
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጦ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start8"
+        app:layout_constraintStart_toEndOf="@id/guideline_start7"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk1" />
+
+
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጨ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start1"
+        app:layout_constraintStart_toEndOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk3" />
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጩ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start3"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk3"
+        />
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጪ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start4"
+        app:layout_constraintStart_toEndOf="@id/guideline_start3"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk3" />
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጫ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start5"
+        app:layout_constraintStart_toEndOf="@id/guideline_start4"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk3" />
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጬ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start6"
+        app:layout_constraintStart_toEndOf="@id/guideline_start5"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk3" />
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጭ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline_start6"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk3" />
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጮ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start8"
+        app:layout_constraintStart_toEndOf="@id/guideline_start7"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk3" />
+
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጰ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@id/guideline_start1"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk4"/>
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጱ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start3"
+        app:layout_constraintStart_toEndOf="@id/guideline_start1"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk4"
+        />
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጲ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start4"
+        app:layout_constraintStart_toEndOf="@id/guideline_start3"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk4" />
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጳ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start5"
+        app:layout_constraintStart_toEndOf="@id/guideline_start4"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk4" />
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጴ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start6"
+        app:layout_constraintStart_toEndOf="@id/guideline_start5"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk4" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጵ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline_start6"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk4" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/example"
+        android:text="ጶ"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintDimensionRatio="0.188:0.14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_start8"
+        app:layout_constraintStart_toEndOf="@id/guideline_start7"
+        app:layout_constraintTop_toTopOf="@id/guideline_startk4" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
